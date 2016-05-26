@@ -51,7 +51,6 @@ public class ElmatareApp {
 		LOGGER.info("Starting log file");
 
 		for (;;) {
-			//System.out.println("Elmatare App "+numTicks);
 			(new Thread(new Sender())).start();
 			Thread.sleep(20000);
 		}
